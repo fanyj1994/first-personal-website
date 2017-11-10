@@ -1,0 +1,145 @@
+.myArticle{
+	margin: 0px auto;
+	width: 60%;
+	line-height: 60px;
+}
+.myArticle .my-article-list{
+	width: 100%;
+}
+.myArticle .my-article-list .articlelist-logo{
+	float: left;
+	margin-top: -70px;
+}
+.myArticle .my-article-list a{
+	margin-top: -50px;
+	color: #333;
+	font-size: 14px;
+	float: right;
+	-webkit-transition:0.1s;
+	-moz-transition:0.1s;
+	transition:0.1s;
+}
+.myArticle .my-article-list a:hover{
+	color: #D18B00;
+	text-decoration: none;
+}
+.myArticle span.pre-article a{
+	color: #333;
+	font-size: 14px;
+	float: left;
+	-webkit-transition:0.1s;
+	-moz-transition:0.1s;
+	transition:0.1s;
+}
+.myArticle span.next-article a{
+	color: #333;
+	font-size: 14px;
+	float: right;
+	-webkit-transition:0.1s;
+	-moz-transition:0.1s;
+	transition:0.1s;
+}
+.myArticle span a:hover{
+	color: #D18B00;
+}
+.myArticle span.writer{
+	font-size: 12px;
+	font-style: italic;
+	color: #999;
+}
+.myArticle h2{
+	border-top: 1px solid #D18B00;
+	padding-top: 40px;
+	margin-top:100px;
+	line-height: 20px;	
+}
+.myArticle article{
+	margin-top: 80px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #D18B00;
+}
+.myArticle article p{
+	line-height: 30px;
+	font-size: 15px;
+	color: #333;
+	text-indent: 2em;
+	margin-top: 20px;
+}
+.mem-content{
+	position: fixed;top:120px;right: 20px;
+	width: 160px;
+	font-size: 14px;
+	padding-top: 10px;
+	border-left: 1px solid #777;
+}
+.mem-content ul{
+	padding-left: 10px;
+}
+.mem-content a{
+	display: block;
+	width: 160px;
+	line-height: 35px;
+	height: 35px;
+	color: #777;
+	text-decoration: none;
+}
+.mem-content li.mem-list-center a:hover{
+	background-color: #DDEDE8;
+	color: #333;
+}
+.mem-content li.mem-list{
+	text-align: left;
+}
+#nowArticle{
+	background-color: #DDEDE8;
+	color: #333;
+	width: 160px;
+}
+.mem-content li.mem-list a{
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 6px;
+	border-bottom: 1px dotted #777;
+}
+.mem-content .back-main-list a{
+	font-size: 10px;
+	color: #333;
+	border-top: 1px dotted #777;
+	text-align: right;
+}
+.mem-content .back-main-list a:hover{
+	text-decoration: underline;
+	color:#D18B00;
+}
+/*联系我弹出条样式设计*/
+.contact-me span{
+	font-weight: normal;
+	margin-left:0;
+	display: block;
+	width: 20px;
+	height: 90px;
+	line-height: 30px;
+	background-color: #d92672;
+	color: #FFF;
+	font-size: 14px;
+	position: fixed;left:0;top: 450px !important;
+}
+.contact-me .contact-method{
+	background-color:#d92672; 
+	width: 200px;
+	height: 90px;
+	z-index: 20em;
+	position: absolute;left: 20px;top: 0;
+	display: none;
+	border-left: 1px solid #FFF;
+}
+.contact-me .contact-method ul li{
+	height: 30px;
+	list-style: none;
+	line-height: 30px;
+	margin-left: -18px;
+}
+.contact-me span:hover .contact-method{
+	display: block;
+}

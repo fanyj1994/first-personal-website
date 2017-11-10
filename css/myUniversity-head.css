@@ -1,0 +1,326 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica Neue","微软雅黑",arial,sans-serif;
+	list-style: none;
+	}
+a{
+	text-decoration: none;
+	color:#000;
+}
+a:hover{
+	text-decoration: none;
+}
+#headImage{
+	background: url(../pic/university/headBackground.jpg);
+	background-repeat: no-repeat;
+	background-position:left top; 
+	height: 300px;
+	padding-top: 360px;
+}
+#backToIndex{
+	width: 100px;
+	height: 30px;
+	position: fixed;top: 5px; right: 5px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px;	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}	
+#backToIndex a{
+	border:1px solid #FFF;
+	color: #FFF;
+	display: block;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	transition:0.5s;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#backToIndex a:hover{
+	background-color: #FFF;
+	color:#65ac8c;	
+}
+#uni a:hover{
+	background-color: #0767c8;
+}
+.uni-msg{
+	width: 540px;
+	height: 170px;
+	border:1px solid #0766c6;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	line-height: 40px;
+	padding-top: 30px;
+	margin: 0 auto;
+	color: #0766c6;
+	font-size: 20px;
+	text-align: center;
+	-webkit-box-shadow: 4px 4px 4px #CCC;
+	-moz-box-shadow: 4px 4px 4px #CCC;
+	box-shadow: 4px 4px 4px #CCC;
+	background: url(../pic/university/首页.jpg);
+	background-position: center top;
+}
+#pack{
+	border: 1px solid #075fb5;
+	display: block;
+	width: 220px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	color: #075fb5;
+	font-size: 14px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+#pack:hover,
+#pack:focus{
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	transition:0.5s;
+	width: 270px;
+	cursor: pointer;
+	background-color: #075fb5;
+	color: #FFF;
+	font-size: 16px;
+}
+#head{
+	height:45px;
+	line-height: 45px;
+	background-color: #0767c8;
+	padding-left: 150px;
+	letter-spacing: 2px;
+	box-shadow: 3px 3px 3px #CCC;
+}
+#head .search{
+	border:none;
+    float: left;
+    margin-top: 8px;
+    height: 30px;
+    width: 240px;
+}
+#head .searchForm {
+    background-color: #e1eaf2;
+    filter:Alpha(opacity=30);
+	-webkit-opacity=0.5;
+	-moz-opacity=0.5;
+    border:none;
+    color: #14191e;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    -webkit-border-radius:3px 0 0 3px;
+	-moz-border-radius:3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+    line-height: 20px;
+    padding: 5px 10px;
+    width: 190px;
+    -webkit-box-shadow: 2px 2px 2px #CCC inset;
+    -moz-box-shadow: 2px 2px 2px #CCC inset;
+    box-shadow: 2px 2px 2px #CCC inset;
+}
+.search .searchButton{
+	cursor: pointer;
+	border:none;
+	float: right;
+	height: 30px;
+	width: 30px;
+	-webkit-border-radius:0 3px 3px 0;
+	-moz-border-radius:0 3px 3px 0;
+	border-radius:0 3px 3px 0;
+	background:url(../pic/logo/search-logo.png); 
+	background-color: #e1eaf2;
+    background-repeat:no-repeat;
+    background-position:right center;
+}
+#head .backToIndex{
+	height: 30px;
+	border-radius: 30px;
+	position: absolute;
+	top: 8px;right:30px; 
+}
+/*导航条及下拉菜单样式*/
+ul.topMenu,ul.topMenu ul{
+	float: left;
+	background-color: #0766c6;
+}
+ul.topMenu li{
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	width: 152px;
+	font-size: 16px;
+	color: #FFF;
+}
+ul.topMenu li ul{
+	left: -999em;
+	position: absolute;
+	width: 150px;
+}
+ul.topMenu li:hover ul{
+	left: auto;
+	z-index: 100;
+}
+ul.topMenu li:hover ul li{
+	background-color: #065fb6;
+	border-left: 1px solid #075bad;
+	border-right: 1px solid #075bad;
+	border-top: 1px solid #0d5aa5;
+	border-bottom: 1px solid #0d5aa5;
+}
+ul.topMenu a{
+	display: block;
+	color: #FFF;
+}
+ul.topMenu li a:hover,ul.topMenu a:focus{
+	background-color: #065fb6;
+}
+ul.topMenu li ul li a:hover{
+	background-color: #0267cc;
+}
+/*左侧导航样式*/
+.uni-sidebar{
+	clear: both;
+	float: left;
+	width: 262px;
+	margin-top: 40px;
+	margin-left: 80px;
+}
+.uni-sidebar .uni-sidebar-type{
+	background-color: #FFF;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	margin-bottom: 20px;
+	position: relative;
+	width: 260px;
+}
+.uniList-more,.uniList-first{
+	font-size: 14px;
+	height: 60px;
+	padding: 0 20px;
+}
+.uniList-first a,
+.uniList-more a{
+	border-bottom: 1px solid #edf1f2;
+	display: block;
+	height: 59px;
+	line-height: 59px;
+	padding-left: 10px;
+	background:url(../pic/university/箭头1.png) no-repeat;
+	background-position:right center;
+}
+.uniList-first,
+.uniList-more:hover,
+.uniList-more:focus{
+	border-left: 2px solid #0766c6;
+}
+.uniList-first a,
+.uniList-more a:hover,
+.uniList-more a:focus{
+	color: #0766c6;
+	background:url(../pic/university/箭头2.png) no-repeat;
+	background-position:right center;
+}
+/*右侧内容样式*/
+.uni-content{
+	float: right;
+	width: 920px;
+	box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+	margin-top: 40px;
+	margin-right: 40px;
+}
+.uni-content .content-top{
+	height: 40px;
+	line-height: 40px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-bottom: 1px solid #edf1f2;
+}
+.uni-content .content-top h3{
+	color: #0766c6;
+	float: left;
+}
+.uni-content .content-top .jump-list{
+	float: right;
+	height: 30px;
+	width: 160px; 
+}
+label{
+	font-size: 14px;
+	color: #000;
+}
+.content-main .uni-school{
+	float: left;
+	width: 280px;
+	height: 230px;
+	margin-left: 20px;
+	margin-top: 30px;
+	position: relative;
+	text-align: center;
+	box-shadow: 2px 2px 2px #CCC;
+}
+.content-main .uni-school:hover{
+	box-shadow: 4px 4px 2px #CCC;
+}
+.content-main .uni-school .uni-school-img{
+	overflow: hidden;
+	width: 280px;
+	height: 190px;
+	border-bottom: 3px solid #0767c8;	
+}
+.content-main .uni-school img:hover{
+	-webkit-transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	transform:scale(1.1);
+	-webkit-transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	transition: all 1s ease 0s;
+	cursor: pointer;
+}
+.school-img-bz{
+	display: block;
+	width: 280px;
+	height: 40px;
+	line-height: 20px;
+	color: #363d40;
+	font-size: 14px;
+	margin-top: 5px;
+	text-align: center;
+}
+/*联系我弹出条样式设计*/
+.contact-me span{
+	display: block;
+	width: 20px;
+	height: 90px;
+	line-height: 30px;
+	background-color: #d92672;
+	color: #FFF;
+	font-size: 14px;
+	position: fixed;left: 0;top:450px;
+}
+.contact-me .contact-method{
+	background-color:#d92672; 
+	width: 200px;
+	padding-left: 15px;
+	height: 90px;
+	z-index: 20em;
+	position: absolute;left: 20px;top: 0;
+	display: none;
+	border-left: 1px solid #FFF;
+}
+.contact-me .contact-method ul li{
+	height: 30px;
+	list-style: none;
+	line-height: 30px;
+}
+.contact-me span:hover .contact-method{
+	display: block;
+}

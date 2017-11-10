@@ -1,0 +1,108 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica Neue","微软雅黑",arial,sans-serif;
+	list-style: none;
+	}
+a{
+	text-decoration: none;
+	color:blue;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	transition:1s;
+}
+a:hover{
+	text-decoration: underline;
+}
+/*左侧菜单样式设置*/
+.menu{
+	width: 220px;
+	height: 674px;
+	background-color: #80b151;
+	color: #FFFFFF;
+	position: fixed;top:0;
+}
+ul li{
+	text-indent: 30px;
+}
+#logo{
+	margin-top: 20px;
+	border-radius: 35px;
+	margin-left: 85px;
+}
+#home{
+	background:url(../pic/logo/home-logo.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+#timeline{
+	background-image: url(../pic/logo/timeline-logo.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+#blog{
+	background-image: url(../pic/logo/blog-logo.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+#hobby{
+	background-image: url(../pic/logo/hobby-logo.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+#address{
+	background-image: url(../pic/logo/address-logo.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+#tel{
+	background-image: url(../pic/logo/tel-logo.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+#email{
+	background-image: url(../pic/logo/email-logo.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+#qq{
+	background-image: url(../pic/logo/qq-logo.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+#university{
+	background-image: url(../pic/logo/university-logo.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.about-me,.find-me,.contact-me{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.about-me span,.contact-me span,.find-me span{
+	font-weight: bold;
+	font-size: 12px;
+	margin-left: 75px;
+	color: #7ac5c4;
+}
+.about-me a,.find-me a{
+	display: block;
+	text-decoration: none;
+	height: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+}
+.contact-me{
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 40px;
+}
+.about-me a:hover,.find-me a:hover{
+	background-color: #87d081;
+}
+#timeCount{
+	font-size: 12px;                                       
+	color: #7ac5c4;
+	position:fixed;top:0;right:0;
+}
